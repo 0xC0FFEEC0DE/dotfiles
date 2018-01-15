@@ -1,0 +1,7 @@
+[user]
+	name = coffeecode
+	email = 35342238+0xC0FFEEC0DE@users.noreply.github.com
+[merge]
+	conflictstyle = diff3
+[pull]
+	rebase = true
