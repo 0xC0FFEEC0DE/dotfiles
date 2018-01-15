@@ -11,10 +11,12 @@ fi
 # User specific aliases and functions
 
 alias neko=cat
-alias ll="ls -lah"
+alias ll="ls -lahF"
 alias grepc="grep --color"
 
 #docker
 alias dc=docker-compose
 alias dm=docker-machine
 alias ds="docker stack"
+
+alias gdot='git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'
