@@ -1,6 +1,8 @@
 [user]
 	name = coffeecode
 	email = 35342238+0xC0FFEEC0DE@users.noreply.github.com
+[color]
+	ui = true
 [merge]
 	conflictstyle = diff3
 [pull]
