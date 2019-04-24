@@ -5,7 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-PS1='\[\e[1;32m\][\u@\h \W]\$\[\e[0m\] '
+PS1='\[\e[1;32m\][ \u : \t : \w ]\$\[\e[0m\] '
 
 # ENV
 export LC_COLLATE="C"
