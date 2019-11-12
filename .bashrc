@@ -13,6 +13,7 @@ export LC_COLLATE="C"
 # User specific aliases and functions
 
 alias ll="ls -lahF"
+alias lart="ls -larthF"
 alias grepc="grep --color"
 alias w="watch"
 
