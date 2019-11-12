@@ -12,7 +12,6 @@ export LC_COLLATE="C"
 
 # User specific aliases and functions
 
-alias neko=cat
 alias ll="ls -lahF"
 alias grepc="grep --color"
 alias w="watch"
@@ -24,6 +23,11 @@ alias ds="docker stack"
 alias dse="docker service"
 
 alias gdot='git --git-dir=$HOME/git/dotfiles.git --work-tree=$HOME'
+
+#show file content OR list directory if directory (cat+ls)
+function neko {
+	[[ -d $1 ]] && ll $1 || cat $1
+}
 
 function cd {
 	command cd $1 && ll
