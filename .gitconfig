@@ -7,3 +7,5 @@
 	conflictstyle = diff3
 [pull]
 	rebase = true
+[core]
+	excludesfile = ~/.gitignore
